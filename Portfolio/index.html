@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ankith Balda | Portfolio</title>
+  <style>
+    :root {
+      --primary: #27282c;
+      --accent: #00c9a7;
+      --bg1: #e0f7fa;
+      --bg2: #f8fdff;
+      --shadow: rgba(0,0,0,0.06);
+      --radius: 8px;
+    }
+    body {
+      margin: 0; 
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(120deg, var(--bg1) 0%, var(--bg2) 100%);
+      color: var(--primary);
+      min-height: 100vh;
+    }
+    header, section, footer {
+      max-width: 850px; margin: auto; padding: 20px;
+      background: white; border-radius: var(--radius);
+      box-shadow: 0 2px 12px var(--shadow);
+      margin-top: 24px;
+    }
+    header { display: flex; flex-direction: column; align-items: center; }
+    .name { font-size: 2.2em; color: var(--accent); font-weight: bold; }
+    .title { font-size: 1.15em; color: #444; margin-bottom: 10px; }
+    nav { margin-top: 14px; }
+    nav a {
+      color: var(--primary); text-decoration: none; margin: 0 12px;
+      font-size: 1em; font-weight: 500; transition: color .2s;
+    }
+    nav a:hover { color: var(--accent); }
+    .contact-info {
+      margin: 14px 0 0 0; 
+      font-size: 1em; 
+      color: #777;
+      display: flex; 
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+    .contact-info a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+      transition: text-decoration 0.2s;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+    h2 { color: var(--accent); font-size: 1.3em; border-bottom: 1px solid #eee; padding-bottom: 4px; }
+    ul { padding-left: 18px; }
+    .section-flex { display: flex; flex-wrap: wrap; gap: 30px; }
+    .half { flex: 1; min-width: 260px; }
+    .skills span {
+      display: inline-block; background: #f0f7f7; color: var(--primary);
+      padding: 6px 12px; margin: 5px 5px 0 0; border-radius: 5px; font-size: 0.96em;
+      border: 1px solid #eaf0ee;
+    }
+    .contact-list { list-style: none; padding: 0; }
+    .contact-list li { margin: 10px 0; }
+    .contact-list-inline {
+      display: flex; flex-wrap: wrap; gap: 18px; 
+      list-style: none; padding: 0;
+    }
+    .contact-list-inline li {
+      color: #444;
+    }
+    @media (max-width: 650px) {
+      .section-flex { flex-direction: column; gap: 0; }
+      header, section, footer { margin-top: 15px; padding: 14px;}
+      .contact-info { font-size: .97em; flex-direction: column; gap: 6px; }
+      .contact-list-inline { flex-direction: column; gap: 6px;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="name">ANKITH BALDA</div>
+    <div class="title">Fresher | Data Analyst | Web Developer</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="contact-info">
+      <span>Hyderabad, IN 500039</span>
+      <span>&#x2022;</span>
+      <a href="mailto:ankithbalda.wk@gmail.com">ankithbalda.wk@gmail.com</a>
+      <span>&#x2022;</span>
+      <a href="tel:+918008401606">+91 8008401606</a>
+      <span>&#x2022;</span>
+      <a href="https://ankithbalda.in" target="_blank">ankithbalda.in</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      I am a passionate fresher with hands-on experience in data analysis and web development. I focus on building meaningful solutions, learning new technologies, and collaborating with teams to deliver impactful results. Adaptable, communicative, and always eager to grow.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="section-flex">
+      <div class="half">
+        <h3>Programming</h3>
+        <div class="skills">
+          <span>Python</span><span>C</span><span>Java</span>
+        </div>
+        <h3>Web</h3>
+        <div class="skills">
+          <span>HTML</span><span>CSS</span>
+        </div>
+      </div>
+      <div class="half">
+        <h3>Database & Tools</h3>
+        <div class="skills">
+          <span>MySQL</span><span>MongoDB</span><span>Power BI</span>
+          <span>DAX</span><span>Power Query</span>
+          <span>Git</span><span>GitHub</span>
+          <span>VS Code</span><span>PyCharm</span><span>Anaconda</span>
+        </div>
+        <h3>Soft Skills</h3>
+        <div class="skills">
+          <span>Communication</span><span>Teamwork</span><span>Problem-Solving</span>
+          <span>Adaptability</span><span>Multitasking</span>
+        </div>
+        <h3>Languages</h3>
+        <div class="skills">
+          <span>English</span><span>Hindi</span><span>Telugu</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <p>
+      <strong>Data Analyst Intern</strong><br>
+      NULLCLASS EdTech Pvt Ltd (Mar 2025 – May 2025)
+    </p>
+    <ul>
+      <li>Converted raw datasets into meaningful formats by performing data pre-processing, normalization, and transformation.</li>
+      <li>Built a real-time Twitter analytics dashboard using Power BI with DAX and Power Query for interactive visualizations.</li>
+      <li>Collaborated remotely with mentors, submitted daily reports, and maintained data privacy and originality standards.</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="section-flex">
+      <div class="half">
+        <strong>B-Tech, Computer Science & Engineering</strong><br>
+        Aurora’s Technological And Research Institute (2022 – 2026)<br>
+        GPA: 8.2
+      </div>
+      <div class="half">
+        <strong>Secondary High School</strong><br>
+        Narayana Jr College (2020 – 2022), GPA: 8.25<br>
+        Sri Sai School (2020), GPA: 9.8
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <b>Apple Music Clone</b>: Developed a web-based clone of Apple Music replicating its core design and functionality using HTML & CSS for a responsive, visually engaging UI.
+      </li>
+      <li>
+        <b>Smart Canteen</b>: Built a user-friendly website to streamline food ordering and menu management for college canteen, with a responsive and visually appealing HTML & CSS interface.
+      </li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <ul class="contact-list-inline">
+      <li><b>Email:</b> <a href="mailto:ankithbalda.wk@gmail.com">ankithbalda.wk@gmail.com</a></li>
+      <li><b>Phone:</b> <a href="tel:+918008401606">+91 8008401606</a></li>
+      <li><b>Portfolio:</b> <a href="https://ankithbalda.in" target="_blank">ankithbalda.in</a></li>
+      <li><b>Location:</b> Hyderabad, IN 500039</li>
+    </ul>
+  </section>
+
+  <footer style="text-align:center;font-size:0.97em;color:#888;padding-bottom:10px;">
+    &copy; 2025 Ankith Balda. Built with plain HTML & CSS.
+  </footer>
+</body>
+</html>
