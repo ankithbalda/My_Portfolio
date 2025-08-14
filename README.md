@@ -69,14 +69,12 @@ You can deploy this site using:
 
 If you’d like to connect, feel free to reach out:
 
-**Name:** [Your Name]  
-**Email:** your.email@example.com  
-**LinkedIn:** [linkedin.com/in/yourprofile](#)  
-**GitHub:** [github.com/yourusername](#)
+**Name:** Ankith Balda 
+**Email:** ankithbalda.wk@gmail.com 
+**LinkedIn:** https://www.linkedin.com/in/ankith-balda-812177278/ 
+**GitHub:** https://github.com/ankithbalda
 
----
 
-## 📄 License
 
 This project is open-sourced under the MIT License.  
 Feel free to fork and customize!
