@@ -38,3 +38,49 @@ I created this website to:
 ## 🚀 Getting Started
 
 ### 1️⃣ Clone this repository
+
+### 2️⃣ Open the project
+Open the folder in VS Code (or any editor).
+
+### 3️⃣ Run locally
+Simply open `index.html` in your browser.
+
+---
+
+## 🌟 Customization
+
+You can update `index.html` to:
+- Change your name, bio, and skills.
+- Add/remove projects.
+- Update contact details and social media links.
+- Modify colors and theme in the CSS file.
+
+---
+
+## 📌 Deployment
+
+You can deploy this site using:
+- **GitHub Pages** – Quick and free for static sites
+- **Netlify / Vercel** – For more customization and domain management
+
+---
+
+## 📬 Contact
+
+If you’d like to connect, feel free to reach out:
+
+**Name:** [Your Name]  
+**Email:** your.email@example.com  
+**LinkedIn:** [linkedin.com/in/yourprofile](#)  
+**GitHub:** [github.com/yourusername](#)
+
+---
+
+## 📄 License
+
+This project is open-sourced under the MIT License.  
+Feel free to fork and customize!
+
+---
+💡 *Built with passion for coding, data analysis, and continuous learning.*
+
