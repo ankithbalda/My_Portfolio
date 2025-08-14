@@ -71,8 +71,8 @@ If you’d like to connect, feel free to reach out:
 
 **Name:** Ankith Balda 
 **Email:** ankithbalda.wk@gmail.com 
-**LinkedIn:** https://www.linkedin.com/in/ankith-balda-812177278/ 
-**GitHub:** https://github.com/ankithbalda
+**LinkedIn:** https://www.linkedin.com/in/ankith-balda-812177278/(#) 
+**GitHub:** https://github.com/ankithbalda(#)
 
 
 
